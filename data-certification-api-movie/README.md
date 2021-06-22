@@ -155,8 +155,8 @@ Example response:
 
 ``` json
 {
-  "title": "Avatar",
-  "popularity": 101.43
+  "title": "Harry Potter",
+  "popularity": 17.3
 }
 ```
 
