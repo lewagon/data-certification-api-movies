@@ -31,6 +31,27 @@ class Trainer():
 
 
     def create_pipeline(self):
+        """        
+        the pipeline expects to be trained with a DataFrame containing
+        the following data types in that order
+        ```
+        original_title              string 
+        title                       string 
+        release_date                string 
+        duration_min                float 
+        description                 string 
+        budget                      float
+        original_language           string
+        status                      string 
+        number_of_awards_won        int 
+        number_of_nominations       int 
+        has_collection              int
+        all_genres                  string 
+        top_countries               string 
+        number_of_top_productions   float 
+        available_in_english        bool 
+        ```
+        """  
         
         numerical_features  = ['duration_min','budget','number_of_awards_won','number_of_nominations','has_collection','number_of_top_productions']
         categorical_features  = ["original_language", "status", "available_in_english"]

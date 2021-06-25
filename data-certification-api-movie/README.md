@@ -127,8 +127,8 @@ You will now be able to work on the content of the API while `uvicorn` automatic
 
 | Parameter | Type | Description |
 |---|---|---|
-| title | string | title of the movie in english  |
 | original_title | string | original title of the movie |
+| title | string | title of the movie in english  |
 | release_date | string | release date |
 | duration_min | float | duration of the movie in minutes |
 | description | string |  short summary of the movie|

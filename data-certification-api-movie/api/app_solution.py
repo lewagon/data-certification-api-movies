@@ -22,14 +22,14 @@ def index():
 
 # Implement a /predict endpoint
 @app.get("/predict")
-def predict(original_title, title, release_date, duration_min,
+def predict(original_title, title,  release_date, duration_min,
        description,budget, original_language, status,
        number_of_awards_won, number_of_nominations, has_collection,
        all_genres, top_countries, number_of_top_productions,
        available_in_english):
     
     # create the dataframe
-    X_pred = pd.DataFrame(dict( original_title=[str(original_title)],
+    X_pred = pd.DataFrame(dict(original_title=[str(original_title)],
         title=[str(title)], 
         release_date=[pd.to_datetime(release_date)], 
         duration_min=[float(duration_min)],
