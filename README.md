@@ -172,6 +172,6 @@ Example response:
   &nbsp;
 
 
-Once you have changed your `GCP_PROJECT_ID` in the `Makefile`, run the following commands to build and deploy your containerized API to Container Registry and finally Cloud Run.
+Once you have changed your `GCP_PROJECT_ID` in the `Makefile`, run the directives of the `Makefile` to build and deploy your containerized API to Container Registry and finally Cloud Run.
 
 </details>
